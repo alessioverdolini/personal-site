@@ -1,0 +1,351 @@
+doctype html
+html(lang='en')
+
+    head
+
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='')
+        meta(name='author', content='')
+
+        title Alessio Verdolini
+
+        link(rel='icon', type='image/x-icon', href='assets/img/favicon.ico')
+
+        // Font Awesome icons (free version)
+        script(src='https://use.fontawesome.com/releases/v5.15.1/js/all.js', crossorigin='anonymous')
+
+        // Google fonts
+        link(href='https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700', rel='stylesheet', type='text/css')
+        link(href='https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i', rel='stylesheet', type='text/css')
+
+        // Core theme CSS (includes Bootstrap)
+        link(href='css/styles.css', rel='stylesheet')
+
+    body#page-top
+
+        // Navigation
+        nav#sideNav.navbar.navbar-expand-lg.navbar-dark.bg-primary.fixed-top
+            a.navbar-brand.js-scroll-trigger(href='#page-top')
+                span.d-block.d-lg-none Alessio Verdolini
+                span.d-none.d-lg-block
+                    img.img-fluid.img-profile.rounded-circle.mx-auto.mb-2(src='assets/img/profile.jpg', alt='')
+            button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
+                span.navbar-toggler-icon
+            #navbarSupportedContent.collapse.navbar-collapse
+                ul.navbar-nav
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#about') About
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#experience') Experience
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#education') Education
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#skills') Skills
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#interests') Interests
+                    //li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#awards') Awards
+
+        // Page Content
+        .container-fluid.p-0
+
+            // About
+            section#about.resume-section
+                .resume-section-content
+                    h1.mb-0
+                        | Alessio 
+                        span.text-primary Verdolini
+                    .subheading.mb-5
+                        ul.list-inline
+                            li.list-inline-item
+                                i.fas.fa-award
+                                | scrum master ·
+                            li.list-inline-item
+                                i.fas.fa-laptop
+                                | software engineer · 
+                            li.list-inline-item
+                                i.fas.fa-rocket
+                                | DDD enthusiast · 
+                            li.list-inline-item
+                                i.fas.fa-map-pin
+                                | rome, italy 
+                    p.lead.mb-5
+                        | I am a young computer engineering, strongly motivated to become a software architect.
+                        | I always organize all my activities in order to not leave anything to chance. 
+                        | I have a passion for teaching and for design of complex systems. 
+                        | I strive to make everything that is complex simple and linear in order to improve understanding.
+                    .social-icons
+                        a.social-icon(href='https://www.linkedin.com/in/alessio-verdolini/')
+                            i.fab.fa-linkedin-in
+                        a.social-icon(href='https://github.com/alessioverdolini')
+                            i.fab.fa-github
+                        a.social-icon(href='mailto:alessio.verdolini@gmail.com')
+                            i.fas.fa-envelope
+
+            hr.m-0
+
+            // Experience
+            section#experience.resume-section
+               .resume-section-content
+                    h2.mb-5 Experience
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 
+                                i.fas.fa-laptop 
+                                | scrum master - Software engineer
+                            .subheading.mb-3 Moveax
+
+                            span.mb-4.badge.badge-secondary Scrum
+                            span.mb-4.badge.badge-secondary Quarkus
+                            span.mb-4.badge.badge-secondary GralVM
+                            span.mb-4.badge.badge-secondary Blockchain
+                            span.mb-4.badge.badge-secondary Algorand
+                            span.mb-4.badge.badge-secondary Docker
+                            span.mb-4.badge.badge-secondary Kubernetes
+
+                        .flex-shrink-0
+                            span.text-primary March 2021 - Present
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 
+                                i.fas.fa-laptop 
+                                | Software engineer
+                            .subheading.mb-3 Moveax
+
+                            span.mb-4.badge.badge-secondary Spring Boot
+                            span.mb-4.badge.badge-secondary Docker 
+                            span.mb-4.badge.badge-secondary Kafka
+                            span.mb-4.badge.badge-secondary Kubernetes
+
+                            p 
+                                | I've worked on microservices architecture deployed on AWS cloud.
+                                | I was mainly involved on design using DDD techniques and develop using spring boot framework.
+                        .flex-shrink-0
+                            span.text-primary March 2019 - February 2021
+
+                    // .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 ...
+                            .subheading.mb-3 ...
+                            p
+                                | ...
+                        .flex-shrink-0
+                            span.text-primary ... - ...
+
+            hr.m-0
+
+            // Education
+            section#education.resume-section
+                .resume-section-content
+                    h2.mb-5 Education
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 
+                                i.fas.fa-university
+                                | Roma Tre university
+                            .subheading.mb-3 MASTER OF SCIENCE · COMPUTER ENGINEER
+                            p Thesis: Design Aggregate and Saga in microservices architecture.
+                            p GPA: 5.0 with honors
+                        .flex-shrink-0
+                            span.text-primary October 2018 - March 2021
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between
+                        .flex-grow-1
+                            h3.mb-0
+                                i.fas.fa-university
+                                | Roma Tre university
+                            .subheading.mb-3 BACHELOR OF SCIENCE · COMPUTER ENGINEER
+                            p GPA: 5.0 with honors
+                        .flex-shrink-0
+                            span.text-primary October 2015 - July 2018
+
+            hr.m-0
+
+            // Skills
+            section#skills.resume-section
+                .resume-section-content
+                    h2.mb-3 Skills
+                    //.subheading.mb-3 WIP
+                    //.subheading.mb-3 Programming Languages & Frameworks
+                    //ul.list-inline.dev-icons
+                        li.list-inline-item
+                            i.fab.fa-java
+
+                    .container
+                        .row
+                            .col-sm.mt-3.mb-3
+                                .subheading.mb-3 Programming Languages
+                                ul.fa-ul.mb-0
+                                    li 
+                                        span.fa-li
+                                            i.fas.fa-check
+                                        | Java
+                                        i.fab.fa-java
+                                        i (advanced)
+                                    li 
+                                        span.fa-li
+                                            i.fas.fa-check
+                                        | Typescript 
+                                    li 
+                                        span.fa-li
+                                            i.fas.fa-check
+                                        | Javascript
+                                        i.fab.fa-js-square
+                                    li 
+                                        span.fa-li
+                                            i.fas.fa-check
+                                        | Go
+                                    li 
+                                        span.fa-li
+                                            i.fas.fa-check
+                                        | Python
+                                        i.fab.fa-python
+                                        
+
+                            .col-sm.mt-3.mb-3
+                                .subheading.mb-3 Frameworks 
+                                ul.fa-ul.mb-0
+                                    li 
+                                        span.fa-li
+                                            i.fas.fa-check
+                                        | Spring (Core, Boot, Mvc, ...)
+                                    li 
+                                        span.fa-li
+                                            i.fas.fa-check
+                                        | Quarkus
+
+                            .col-sm.mt-3.mb-3
+                                .subheading.mb-3 Other
+                                ul.fa-ul.mb-0
+                                    li 
+                                        span.fa-li
+                                            i.fas.fa-check
+                                        | Docker
+                                        i.fab.fa-docker
+                                    li 
+                                        span.fa-li
+                                            i.fas.fa-check
+                                        | Kafka
+                                    li 
+                                        span.fa-li
+                                            i.fas.fa-check
+                                        | Kubernetes
+
+
+                        .row.mt-5
+                            .col-sm.mt-5
+                                .subheading.mb-3 Methodologies
+                                ul.fa-ul.mb-0
+                                    li 
+                                        span.fa-li
+                                            i.fas.fa-check
+                                        | Agile
+                                    li 
+                                        span.fa-li
+                                            i.fas.fa-check
+                                        | Scrum
+                                    li 
+                                        span.fa-li
+                                            i.fas.fa-check
+                                        | DDD
+                                    li 
+                                        span.fa-li
+                                            i.fas.fa-check
+                                        | Event Storming
+
+                            .col-sm.mt-5
+                                .subheading.mb-3 Operating Systems
+                                ul.fa-ul.mb-0
+                                    li 
+                                        span.fa-li
+                                            i.fas.fa-check
+                                        | MacOs
+                                        i.fab.fa-apple
+                                    li 
+                                        span.fa-li
+                                            i.fas.fa-check
+                                        | Ios
+                                        i.fab.fa-apple
+                                    li 
+                                        span.fa-li
+                                            i.fas.fa-check
+                                        | Linux
+                                        i.fab.fa-linux
+                                    li 
+                                        span.fa-li
+                                            i.fas.fa-check
+                                        | Android
+                                        i.fab.fa-android
+                                    li 
+                                        span.fa-li
+                                            i.fas.fa-check
+                                        | Windows
+                                        i.fab.fa-windows
+
+            hr.m-0
+
+            // Interests
+            section#interests.resume-section
+                .resume-section-content
+                    h2.mb-5 Interests
+                    p.mb-0 WIP
+
+            hr.m-0
+
+            // Awards
+            // section#awards.resume-section
+                .resume-section-content
+                    h2.mb-5 Awards & Certifications
+                    ul.fa-ul.mb-0
+                        li
+                            span.fa-li
+                                i.fas.fa-trophy.text-warning
+                            | Google Analytics Certified Developer
+                        li
+                            span.fa-li
+                                i.fas.fa-trophy.text-warning
+                            | Mobile Web Specialist - Google Certification
+                        li
+                            span.fa-li
+                                i.fas.fa-trophy.text-warning
+                            | 1
+                            sup st 
+                            | Place - University of Colorado Boulder - Emerging Tech Competition 2009
+                        li
+                            span.fa-li
+                                i.fas.fa-trophy.text-warning
+                            | 1
+                            sup st 
+                            | Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
+                        li
+                            span.fa-li
+                                i.fas.fa-trophy.text-warning
+                            | 2
+                            sup nd 
+                            | Place - University of Colorado Boulder - Emerging Tech Competition 2008
+                        li
+                            span.fa-li
+                                i.fas.fa-trophy.text-warning
+                            | 1
+                            sup st 
+                            | Place - James Buchanan High School - Hackathon 2006
+                        li
+                            span.fa-li
+                                i.fas.fa-trophy.text-warning
+                            | 3
+                            sup rd 
+                            | Place - James Buchanan High School - Hackathon 2005
+
+        // Bootstrap core JS
+        script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js')
+        script(src='https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js')
+
+        // Third party plugin JS
+        script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js')
+
+        // Core theme JS
+        script(src='js/scripts.js')
